@@ -96,11 +96,16 @@ section, footer {
     .flex-nav li{
         flex-basis: 100%;
     }
-    
+    /* Flex container */
     .wrapper{
         display: flex;
         flex-direction: column;
     }
+    
+    .wrapper > *{
+        order: 999;
+    }
+    /* Flex navigation*/
     .flex-nav{
         order: 1;
     }
