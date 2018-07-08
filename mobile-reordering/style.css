@@ -101,5 +101,8 @@ section, footer {
         display: flex;
         flex-direction: column;
     }
+    .flex-nav{
+        order: 1;
+    }
 
 }
