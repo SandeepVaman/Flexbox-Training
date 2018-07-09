@@ -59,6 +59,8 @@ a {
   max-width:750px;
   margin: 0 auto;
   display: flex;
+    align-items: center;
+
   
 }
 
@@ -70,4 +72,15 @@ a {
     text-align: center;
     
     flex: 1;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.plan > *{
+    flex:1 1 100%;
+}
+
+
+.plan .cta{
+    align-self: flex-end;
 }
